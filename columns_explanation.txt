@@ -1,0 +1,31 @@
+NAME	     TYPE     DESCRIPTION					A PRIORI CORRELATION WITH TARGET_FLAG
+
+INDEX:       (int)    index					
+TARGET_FLAG: (bool)   car of user was in a crash		
+TARGET_AMT:  (float)  cost of fixing crashed car		
+KIDSDRIV:    (int)    number of children driving the car		Pos
+AGE: 	     (int)    age						Very young people and Old people
+HOMEKIDS:    (int)    number of kids at home				Driving is more careful
+YOJ: 	     (int)    years the person has had their job for    	Matters only with very small numbers
+INCOME:      (int)    annual income in dollars				Neg
+PARENT1:     (bool)   whether or not the person is a single parent 	?
+HOME_VAL:    (int)    value of the person's home in dollars		Neg
+MSTATUS:     (bool)   married or not					Neg
+SEX:	     (char)   biological sex
+EDUCATION:   (string) highest level of education attained 		Neg
+JOB: 	     (string) job category					Neg
+TRAVTIME:    (int)    daily average car use/daily work commute 		?
+		      in minutes 
+CAR_USE:     (bool)   car use either private or commercial		?
+BLUEBOOK:    (int)    car value in dollars according to 		Pos
+		      Kelley Blue Book 
+TIF: 	     (int)    number of years they have been insured for	Neg
+CAR_TYPE:    (string) car type						?
+RED_CAR:     (bool)   whether car is red or not				Slighly Pos
+OLDCLAIM:    (int)    amount previously claimed to insurance in dollars Pos
+CLM_FREQ:    (int)    number of times coverage was claimed		Pos
+REVOKED:     (bool)   driving license already revoked at least once (?) Pos
+MVR_PTS:     (int)    Motor Vehicle Record points ("penalty" points 	Pos
+		      representing history of bad driving behavior)	
+CAR_AGE:     (int)    car age						Pos
+URBANICITY:  (string) type of environment in which car is used		Urban: Pos
